@@ -9,7 +9,7 @@ class CouponController < ApplicationController
   end
 
   def show
-
+    @show = Show.find_by[:id]
   end
 
 end
