@@ -5,11 +5,11 @@ class CouponController < ApplicationController
   end
 
   def create
-
+    @
   end
 
   def show
-    @show = Show.find_by[:id]
+    @coupon = Coupon.find_by[:id]
   end
 
 end
