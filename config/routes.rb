@@ -54,3 +54,5 @@ Rails.application.routes.draw do
   #     resources :products
   #   end
 end
+
+get 'coupon/:id', to 'coupon#show'
